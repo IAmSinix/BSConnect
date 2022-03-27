@@ -12,5 +12,6 @@ pkg install clang
 git clone https://github.com/IAmSinix/BSConnect
 cd BSConnect
 g++ app.cpp -o bscon
+chmod 777 bscon
 ./bscon <ip> <port>
 ```
