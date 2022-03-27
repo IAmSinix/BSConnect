@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
 {
     if (!(argc==3))
     {
-        std::cout << "./<program_name> <ip> <port>" << std::endl;
+        std::cout << "./bscon <ip> <port>" << std::endl;
         return -1;
     }
     
